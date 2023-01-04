@@ -7,7 +7,7 @@
 	<properties>
 		<maven.compiler.source>15</maven.compiler.source>
 		<maven.compiler.target>15</maven.compiler.target>
-		<springVersion>5.3.24</springVersion>
+				<springVersion>5.3.24</springVersion>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -47,6 +47,13 @@
 			<version>${springVersion}</version>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-jpa</artifactId>
+			<version>2.7.6</version>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<plugins>
