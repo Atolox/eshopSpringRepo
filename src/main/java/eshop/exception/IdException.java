@@ -1,5 +1,5 @@
 package eshop.exception;
 
-public class IdException {
+public class IdException extends RuntimeException{
 
 }
