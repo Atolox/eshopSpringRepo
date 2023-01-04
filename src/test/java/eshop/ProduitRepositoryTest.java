@@ -1,5 +1,6 @@
 package eshop;
 
+<<<<<<< HEAD
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import org.junit.jupiter.api.Test;
@@ -33,4 +34,17 @@ public class ProduitRepositoryTest {
 		
 		
 	}
+=======
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ProduitRepositoryTest {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+>>>>>>> 0ac4b36cb0ac4a363d07d4ecde5628e3588f46af
 }
